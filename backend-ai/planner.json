@@ -1,0 +1,33 @@
+{
+  "user_id": "1",
+  "schedule": [
+    {
+      "date": "2025-02-23",
+      "topics": ["Arrays", "Linked List", "Stacks"]
+    },
+    {
+      "date": "2025-02-24",
+      "topics": ["Queues", "Trees", "Graphs"]
+    },
+    {
+      "date": "2025-02-25",
+      "topics": ["Dynamic Programming", "Greedy Algorithms", "Recursion"]
+    },
+    {
+      "date": "2025-02-26",
+      "topics": ["Hashing", "Arrays", "Linked List"]
+    },
+    {
+      "date": "2025-02-27",
+      "topics": ["Stacks", "Queues", "Trees"]
+    },
+    {
+      "date": "2025-02-28",
+      "topics": ["Graphs", "Dynamic Programming", "Greedy Algorithms"]
+    },
+    {
+      "date": "2025-02-29",
+      "topics": ["Recursion", "Hashing", "Arrays"]
+    }
+  ]
+}

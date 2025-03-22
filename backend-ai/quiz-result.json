@@ -1,0 +1,393 @@
+[
+ 
+  {
+    "user_id": "1",
+    "question_id": "Q2",
+    "difficulty": "medium",
+    "score": 1,
+    "response_time": 3,
+    "last_reviewed": "2025-01-12",
+    "time_since_last_review": "10",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q3",
+    "difficulty": "hard",
+    "score": 2,
+    "response_time": 6,
+    "last_reviewed": "2025-01-20",
+    "time_since_last_review": "2",
+    "number_of_attempts": 3
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q4",
+    "difficulty": "medium",
+    "score": 1,
+    "response_time": 5,
+    "last_reviewed": "2025-01-25",
+    "time_since_last_review": "5",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q5",
+    "difficulty": "easy",
+    "score": 0,
+    "response_time": 4,
+    "last_reviewed": "2025-01-18",
+    "time_since_last_review": "7",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q6",
+    "difficulty": "hard",
+    "score": 1,
+    "response_time": 8,
+    "last_reviewed": "2025-01-10",
+    "time_since_last_review": "15",
+    "number_of_attempts": 3
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q7",
+    "difficulty": "medium",
+    "score": 1,
+    "response_time": 4,
+    "last_reviewed": "2025-01-19",
+    "time_since_last_review": "4",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q8",
+    "difficulty": "easy",
+    "score": 2,
+    "response_time": 3,
+    "last_reviewed": "2025-01-11",
+    "time_since_last_review": "15",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q9",
+    "difficulty": "hard",
+    "score": 1,
+    "response_time": 7,
+    "last_reviewed": "2025-01-14",
+    "time_since_last_review": "8",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q10",
+    "difficulty": "medium",
+    "score": 1,
+    "response_time": 5,
+    "last_reviewed": "2025-01-17",
+    "time_since_last_review": "4",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q11",
+    "difficulty": "easy",
+    "score": 0,
+    "response_time": 3,
+    "last_reviewed": "2025-01-23",
+    "time_since_last_review": "2",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q12",
+    "difficulty": "hard",
+    "score": 4,
+    "response_time": 9,
+    "last_reviewed": "2025-01-08",
+    "time_since_last_review": "17",
+    "number_of_attempts": 5
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q13",
+    "difficulty": "medium",
+    "score": 1,
+    "response_time": 4,
+    "last_reviewed": "2025-01-21",
+    "time_since_last_review": "3",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q14",
+    "difficulty": "easy",
+    "score": 1,
+    "response_time": 2,
+    "last_reviewed": "2025-01-26",
+    "time_since_last_review": "5",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q15",
+    "difficulty": "hard",
+    "score": 1,
+    "response_time": 6,
+    "last_reviewed": "2025-01-30",
+    "time_since_last_review": "1",
+    "number_of_attempts": 3
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q16",
+    "difficulty": "medium",
+    "score": 0,
+    "response_time": 4,
+    "last_reviewed": "2025-01-22",
+    "time_since_last_review": "3",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q17",
+    "difficulty": "easy",
+    "score": 0,
+    "response_time": 3,
+    "last_reviewed": "2025-01-24",
+    "time_since_last_review": "2",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q18",
+    "difficulty": "hard",
+    "score": 3,
+    "response_time": 10,
+    "last_reviewed": "2025-01-28",
+    "time_since_last_review": "2",
+    "number_of_attempts": 4
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q19",
+    "difficulty": "medium",
+    "score": 2,
+    "response_time": 5,
+    "last_reviewed": "2025-01-16",
+    "time_since_last_review": "10",
+    "number_of_attempts": 3
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q20",
+    "difficulty": "easy",
+    "score": 2,
+    "response_time": 4,
+    "last_reviewed": "2025-01-12",
+    "time_since_last_review": "14",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q21",
+    "difficulty": "hard",
+    "score": 1,
+    "response_time": 7,
+    "last_reviewed": "2025-01-15",
+    "time_since_last_review": "5",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q22",
+    "difficulty": "medium",
+    "score": 2,
+    "response_time": 5,
+    "last_reviewed": "2025-01-27",
+    "time_since_last_review": "3",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q23",
+    "difficulty": "easy",
+    "score": 2,
+    "response_time": 3,
+    "last_reviewed": "2025-01-11",
+    "time_since_last_review": "16",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q24",
+    "difficulty": "hard",
+    "score": 3,
+    "response_time": 9,
+    "last_reviewed": "2025-01-09",
+    "time_since_last_review": "18",
+    "number_of_attempts": 5
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q25",
+    "difficulty": "medium",
+    "score": 1,
+    "response_time": 4,
+    "last_reviewed": "2025-01-20",
+    "time_since_last_review": "4",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q26",
+    "difficulty": "easy",
+    "score": 1,
+    "response_time": 3,
+    "last_reviewed": "2025-01-14",
+    "time_since_last_review": "11",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q27",
+    "difficulty": "hard",
+    "score": 0,
+    "response_time": 8,
+    "last_reviewed": "2025-01-02",
+    "time_since_last_review": "29",
+    "number_of_attempts": 3
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q28",
+    "difficulty": "medium",
+    "score": 0,
+    "response_time": 5,
+    "last_reviewed": "2025-01-25",
+    "time_since_last_review": "5",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q29",
+    "difficulty": "easy",
+    "score": 1,
+    "response_time": 4,
+    "last_reviewed": "2025-01-06",
+    "time_since_last_review": "21",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q30",
+    "difficulty": "hard",
+    "score": 0,
+    "response_time": 9,
+    "last_reviewed": "2025-01-05",
+    "time_since_last_review": "25",
+    "number_of_attempts": 4
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q31",
+    "difficulty": "medium",
+    "score": 1,
+    "response_time": 4,
+    "last_reviewed": "2025-01-29",
+    "time_since_last_review": "1",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q32",
+    "difficulty": "easy",
+    "score": 0,
+    "response_time": 3,
+    "last_reviewed": "2025-01-13",
+    "time_since_last_review": "15",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q33",
+    "difficulty": "hard",
+    "score": 0,
+    "response_time": 7,
+    "last_reviewed": "2025-01-18",
+    "time_since_last_review": "11",
+    "number_of_attempts": 3
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q34",
+    "difficulty": "medium",
+    "score": 0,
+    "response_time": 5,
+    "last_reviewed": "2025-01-31",
+    "time_since_last_review": "0",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q35",
+    "difficulty": "easy",
+    "score": 0,
+    "response_time": 3,
+    "last_reviewed": "2025-01-12",
+    "time_since_last_review": "18",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q36",
+    "difficulty": "hard",
+    "score": 1,
+    "response_time": 8,
+    "last_reviewed": "2025-01-15",
+    "time_since_last_review": "15",
+    "number_of_attempts": 3
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q37",
+    "difficulty": "medium",
+    "score": 1,
+    "response_time": 4,
+    "last_reviewed": "2025-01-20",
+    "time_since_last_review": "10",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q38",
+    "difficulty": "easy",
+    "score": 1,
+    "response_time": 5,
+    "last_reviewed": "2025-01-21",
+    "time_since_last_review": "9",
+    "number_of_attempts": 1
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q39",
+    "difficulty": "hard",
+    "score": 0,
+    "response_time": 6,
+    "last_reviewed": "2025-01-24",
+    "time_since_last_review": "8",
+    "number_of_attempts": 2
+  },
+  {
+    "user_id": "1",
+    "question_id": "Q40",
+    "difficulty": "medium",
+    "score": 1,
+    "response_time": 5,
+    "last_reviewed": "2025-01-30",
+    "time_since_last_review": "1",
+    "number_of_attempts": 3
+  }
+]
