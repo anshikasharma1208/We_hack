@@ -1,0 +1,139 @@
+/* Dark background */
+.landing-page {
+  background-color: #000 !important;
+  color: white;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;  /* Hides scrollbar in Firefox */
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari */
+}
+
+/* Navbar Customization */
+.navbar {
+  position: fixed; /* Sticks navbar to the top */
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it's above other elements */
+  background-color: #000; /* Adjust background color if needed */
+  padding: 12px 0;
+}
+.landing-page {
+  padding-top: 70px; /* Prevents content from being hidden behind navbar */
+}
+#navbtn {
+  background-color: transparent;
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: 1px solid white;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out;
+}
+#navbtn:hover {
+  background-color: grey;
+}
+
+/* .signup-btn {
+  font-weight: bold;
+  border-radius: 10px;
+} */
+
+/* Hero Section */
+.hero-section {
+  flex: 1;
+  padding: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.grad-text {
+  background: linear-gradient(90deg, #007bff, #ff416c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-subtext {
+  font-size: 1.2rem;
+  max-width: 500px;
+  margin: 10px 0 20px;
+}
+.element.logo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  width: 400px; 
+  /* height: auto; */
+  background: url(./MindVault.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.element-title {
+  position: absolute;
+  left: 100px;
+  bottom: 40px;
+}
+
+.cta-button {
+  font-size: 1.2rem;
+  width:75%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.student-offer {
+  text-align: center !important;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff7eb3, #57a1f8) !important;
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 50px auto;
+  width: 30%;
+  position: relative;
+  bottom: 30px;
+  margin-bottom: 120px;
+}
+
+.student-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.student-subtext {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.student-btn {
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+}
+
+.student-btn:hover {
+  background: #ddd;
+}
+
+.signtext{
+  opacity: 0.5;
+}

@@ -1,0 +1,65 @@
+.flashcard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("../quiz/assets/background.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+}
+
+.buttons-container {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.flag-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  background: linear-gradient(145deg, #b8b8b8, #e0e0e0);
+  color: black;
+  border: 1px solid #999;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.flag-button.easy {
+  background: #20daae;
+  color: white;
+}
+
+.flag-button.medium {
+  background: #40d7f2;
+  color: black;
+}
+
+.flag-button.hard {
+  background: #ff53a9;
+  color: white;
+}
+
+.next-button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 350px;  /* Matches the flashcard width */
+  border: none;
+  border-radius: 10px;
+  background: #0d325a;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.next-button:hover {
+  background: #0d325a;
+}
+

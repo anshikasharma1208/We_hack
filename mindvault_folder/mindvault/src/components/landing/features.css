@@ -1,0 +1,54 @@
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 20px;
+    padding-bottom: 10px;
+    scrollbar-width: none;  /* Hides scrollbar in Firefox */
+    -ms-overflow-style: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in Chrome, Safari */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 10px;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #007bff, #ff416c);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.custom-card {
+    min-width: 280px; /* Ensure consistent width */
+    max-width: 300px; /* Prevent text overflow */
+    flex: 0 0 auto;
+    padding: 20px;
+    background: #111; /* Dark background */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+.card-body {
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    min-height: 80px; /* Ensure enough space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .custom-card h3 {
+    min-height: 50px; /* Ensures title consistency */
+  }
+  
+  .custom-card p {
+    min-height: 80px; /* Ensures subtitle/content consistency */
+  }
+  
