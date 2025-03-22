@@ -1,0 +1,154 @@
+/* Dark Theme Styles */
+.dashboard {
+  background-color: #121212; /* Dark background */
+  color: #f8f9fa; /* Light text */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: linear-gradient(270deg, #3C446B, #1D1D2B); 
+  color: white;
+  height: 100vh;
+}
+
+.sidebar h4 {
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sideicons .sideicon {
+  background-color: transparent !important;
+  color: white;
+  border: 2px solid;
+  font-size: 16px;
+  text-align: left;
+  padding: 12px 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.sideicons .sideicon:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  transform: scale(1.05);
+}
+
+/* Cards */
+.card {
+  background-color: #1e1e1e !important; /* Dark card background */
+  color: white !important; /* Light text */
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient Card Headers */
+.card-title {
+  background: linear-gradient(90deg, #007bff, #ff416c);
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* Safari and Chrome */
+  -webkit-text-fill-color: transparent; /* Webkit-specific */
+  color: transparent; /* Standard fallback */
+}
+
+/* Profile Section */
+.profile-container {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Buttons */
+#buybtn {
+  background: linear-gradient(90deg, #007bff, #ff416c);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#buybtn:hover {
+  background: linear-gradient(90deg, #ff416c, #007bff);
+}
+
+/* Calendar */
+.calendar-card {
+  background-color: #1e1e1e !important;
+}
+
+.custom-calendar {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  width: 100%;  /* Ensure it takes full width */
+  max-width: 320px;
+  text-align: center;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-size: 14px;
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.calendar td {
+  padding: 5px;
+  min-width: 30px;
+}
+
+/* List Items */
+.list-group-item {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border: 1px solid #343a40;
+}
+
+.list-group-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Reminders */
+.reminders-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+
+/* Profile Container */
+.profile-container {
+  background-color: #000000;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Circular Profile Image */
+.profile-image {
+  width: 100px;  /* Adjust size */
+  height: 100px;
+  border-radius: 50%; /* Circular */
+  overflow: hidden;
+  border: 3px solid #ffffff; /* Blue border */
+  display: inline-block;
+}
+
+/* Ensure Image Fills the Circle */
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Prevent distortion */
+}
+
+/* Layout Improvements */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust spacing between sections */
+}
