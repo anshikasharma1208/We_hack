@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+yt-dlp
+requests
+openai
+pymongo
+python-dotenv
+youtube_transcript_api
+nltk
