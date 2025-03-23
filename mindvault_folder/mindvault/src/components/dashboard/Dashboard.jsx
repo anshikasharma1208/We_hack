@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Card, Button, ListGroup, ListGroupItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Calendar from "react-calendar";
@@ -8,6 +8,35 @@ import "./Dashboard.css";
 const Dashboard = () => {
   const username = localStorage.getItem("username"); // Retrieve username from localStorage
 
+  const [selectedSubject, setSelectedSubject] = useState("");
+  const [uploadedFiles, setUploadedFiles] = useState([]);
+  const [uploadedLinks, setUploadedLinks] = useState([]);
+  const [subjects, setSubjects] = useState([]);
+
+  useEffect(() => {
+    const storedFiles = JSON.parse(localStorage.getItem("uploadedFiles")) || [];
+    const storedLinks = JSON.parse(localStorage.getItem("uploadedLinks")) || [];
+    setUploadedFiles(storedFiles);
+    setUploadedLinks(storedLinks);
+
+    // Retrieve stored subjects from localStorage
+    const storedSubjects = JSON.parse(localStorage.getItem("subjects")) || [];
+
+    // Extract only subject names (if objects are stored)
+    const extractedSubjects = storedSubjects.map(subject =>
+        typeof subject === "object" && subject.name ? subject.name : subject
+    );
+
+    // Default subjects that should always be shown
+    const defaultSubjects = ["Machine Learning", "Neural Networks", "Deep Learning"];
+
+    // Merge default subjects with stored subjects (avoiding duplicates)
+    const mergedSubjects = [...new Set([...defaultSubjects, ...extractedSubjects])];
+
+    setSubjects(mergedSubjects);
+}, []);
+
+  
   return (
     <Container fluid className="dashboard">
       {/* Sidebar */}
@@ -34,7 +63,7 @@ const Dashboard = () => {
 
           {/* Classes Section */}
           <Row className="mt-4">
-            {["Machine Learning", "Neural Networks", "Deep Learning"].map(
+            {subjects.map(
               (subject, idx) => (
                 <Col md={4} key={idx}>
                   <Card
@@ -46,7 +75,9 @@ const Dashboard = () => {
                           : idx === 1
                           ? "#6610f2"
                           : "#dc3545",
+                        cursor: "pointer"
                     }}
+                    onClick={() => setSelectedSubject(subject)} 
                   >
                     <Card.Body>
                       <Card.Title>{subject}</Card.Title>
@@ -57,6 +88,32 @@ const Dashboard = () => {
               )
             )}
           </Row>
+
+          {/* Filtered Notes and Links Section */}
+          {selectedSubject && (
+            <Card className="p-3 shadow-sm mt-3">
+              <h6>📂 Notes & Links for <strong>{selectedSubject}</strong></h6>
+              <ListGroup>
+                {uploadedFiles
+                  .filter(file => file.tag === selectedSubject)
+                  .map((file, idx) => (
+                    <ListGroup.Item key={idx}>📄 {file.name}</ListGroup.Item>
+                  ))}
+                {uploadedLinks
+                  .filter(link => link.tag === selectedSubject)
+                  .map((link, idx) => (
+                    <ListGroup.Item key={idx}>
+                      🎥 <a href={link.link} target="_blank" rel="noopener noreferrer">{link.link}</a>
+                    </ListGroup.Item>
+                  ))}
+                  
+                {uploadedFiles.filter(f => f.tag === selectedSubject).length === 0 &&
+                 uploadedLinks.filter(l => l.tag === selectedSubject).length === 0 && (
+                  <ListGroup.Item>No notes or links uploaded for this subject yet.</ListGroup.Item>
+                )}
+              </ListGroup>
+            </Card>
+          )}
 
           {/* Lessons Section */}
           <Card className="p-3 shadow-sm">
