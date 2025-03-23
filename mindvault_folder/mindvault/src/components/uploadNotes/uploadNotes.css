@@ -1,0 +1,82 @@
+.upload-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.upload-page::after {
+content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;  /* Full viewport width */
+  height: 100%; /* Full viewport height */
+  background: url('../quiz/assets/background.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensure full coverage */
+  z-index: -1;
+  filter: blur(3px);
+}
+
+.open-modal-btn {
+    background-color: #4a90e2;
+    margin-left: 250px;
+    width: 80%;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.open-modal-btn:hover {
+    background-color: #357abd;
+}
+
+.upload-modal {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    border-radius: 12px;
+}
+
+.upload-input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 6px;
+}
+.uploaded-file {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #fff;
+    background: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 260px;
+    width: 80%;
+}
+.modal-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.modal-actions button {
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+/* Toast Notification */
+.success-toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

@@ -35,8 +35,7 @@ export default function LandingPage() {
           <span className="grad-text">Unlock</span> your Potential
         </h1>
         <p className="hero-subtext">
-          Maximize your coding potential with AI-powered learning and
-          interview prep.
+        Say goodbye to forgetting and hello to lasting knowledge.
         </p>
         <Button variant="light" className="cta-button" href="#feature">
           Unleash the Powers of your Mind
@@ -56,7 +55,7 @@ export default function LandingPage() {
           <div>Start setting the curve with the most accurate AI.</div>
         </p>
         <Button className="student-btn" href="/login">
-          <div>Use MindVault for free</div>
+          <div>Use MemoBoost for free</div>
         </Button>
         </div>
       </Container>

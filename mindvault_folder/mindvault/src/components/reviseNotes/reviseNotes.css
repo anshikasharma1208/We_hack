@@ -1,0 +1,86 @@
+.revised-notes {
+    text-align: center;
+    padding: 20px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  /* Full viewport width */
+    height: 100%; /* Full viewport height */
+    background: url('../quiz/assets/background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensure full coverage */
+    z-index: -1;
+    /* filter: blur(3px); */
+}
+
+.revised-notes h2, p{
+    color: #fff;
+}
+
+.back-btn {
+    margin-bottom: 20px;
+}
+
+.file-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.file-item {
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin: 30px auto;
+    width: 60%;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+.status-reviewed {
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.status-pending {
+    color: orange;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.status-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reviewed-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.to-review-btn {
+    background-color: #ffc107;
+    color: black;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
