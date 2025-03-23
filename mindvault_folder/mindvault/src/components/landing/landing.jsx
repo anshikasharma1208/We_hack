@@ -56,7 +56,7 @@ export default function LandingPage() {
           <div>Start setting the curve with the most accurate AI.</div>
         </p>
         <Button className="student-btn" href="/login">
-          <div>Use MindVault for free</div>
+          <div>Use MemoBoost for free</div>
         </Button>
         </div>
       </Container>
