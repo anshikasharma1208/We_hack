@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"; 
 import { Button, Modal, Toast, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { useDropzone } from "react-dropzone";
 import "./uploadNotes.css";
 import Sidebar from "../sidebar/sidebar";
 
