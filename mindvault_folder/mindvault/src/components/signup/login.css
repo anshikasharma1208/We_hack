@@ -1,0 +1,156 @@
+/* General */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #000000, #2e1c21);
+  color: white;
+}
+
+/* Login page Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* 3D Effect */
+.box {
+  position: relative;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+}
+
+/* translucent Card */
+.box .card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  width: 300px;
+  min-height: 400px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.75);
+  border-left: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 20px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
+  transform-style: preserve-3d;
+}
+/* Floating  */
+.elements {
+  position: absolute;
+  top: 50px;
+  left: -30px;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateZ(80px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgb(255, 255, 255, 0.5);
+  border-top: 1px solid rgb(255, 255, 255, 0.75);
+  border-left: 1px solid rgb(255, 255, 255, 0.75);
+  border-radius: 20px;
+  box-shadow: 0 25px 45px rgb(0, 0, 0, 0.5);
+}
+
+/* Title */
+.elements.name {
+  top: 75px;
+  left: initial;
+  right: 75px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  transform: translateZ(100px);
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: none;
+  box-shadow: none;
+  opacity: 1;
+  color: white;
+}
+
+.elements.logo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(./logo.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+/* Content Box */
+.elements.content {
+  top: initial;
+  left: initial;
+  bottom: 30px;
+  right: 55px;
+  width: 60%;
+  min-height: 200px;
+  padding: 10px;
+  transform: translateZ(180px);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Input */
+input {
+  background: transparent;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  color: #fff;
+  /* border: none; */
+  font-size: 0.9em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgb(255, 255, 255, 0.75);
+  border-left: 1px solid rgb(255, 255, 255, 0.75);
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Placeholder */
+::placeholder {
+  color: rgb(181, 177, 177);
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+/* Login */
+button {
+  margin-top: 10px;
+  width: 40%;
+  background-color: transparent;
+  color: white;
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgb(255, 255, 255, 0.75);
+  border-left: 1px solid rgb(255, 255, 255, 0.75);
+  border-radius: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background-color:#000000;
+}
+.login::cue{
+  color:linear-gradient(90deg, #007bff, #ff416c);
+}
